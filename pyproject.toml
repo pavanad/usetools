@@ -5,12 +5,13 @@ description = ""
 authors = ["Adilson Pavan <adilson.pavan@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = "^3.7"
 cleo = "^0.8.1"
 pyfiglet = "^0.8.post1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+black = {version = "^20.8b1", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry>=0.12"]
